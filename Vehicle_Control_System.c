@@ -4,7 +4,7 @@
  Author      : 
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : Vehicle Control System
  ============================================================================
  */
 
@@ -32,7 +32,7 @@ typedef enum{
 	SET_ENGINE_TEMP
 }EN_sensor_menu;
 
-#define WITH_ENGINE_TEMP_CONTROLLER 0
+#define WITH_ENGINE_TEMP_CONTROLLER 1
 
 #define DEFAULT_SPEED 30
 #define DEFAULT_ROOM_TEMP 20
